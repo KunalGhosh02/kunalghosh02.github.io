@@ -1,4 +1,4 @@
-##Hello, I am Kunal Ghosh.
+Hello, I am Kunal Ghosh.
 This page will be ready soon. 
 <br>
 Meanwhile, check out my github!
