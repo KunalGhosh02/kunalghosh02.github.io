@@ -141,17 +141,19 @@ body, html {
 }
 #skillBox{
     padding-left: 175px;
-
+    padding-top: 10px;
+    padding-bottom: 40px;
 }
 
 .containerSkills h3{
     font-family: "Open Sans", sans-serif;
     text-align: center;
+    padding: 20px;
 }
 
 
 #footer{
     font-family: "Open Sans", sans-serif;
     text-align: center;
-    padding: 50px;
+    padding: 40px;
 }
