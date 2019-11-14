@@ -1,0 +1,103 @@
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    background-color: #EEEEEE;
+}
+
+
+.navbar {
+    width: 100%;
+    margin: auto 0 auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    max-width: 100%;
+}
+
+.navbar a{
+    color:black;
+    text-decoration:none;
+}
+
+.navbar ul {
+    font-size: 0;
+    list-style-type: none;
+    float: right;
+}
+
+.navbar .name{
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #333;
+    display: inline-block;
+    padding: 15px;
+    position: relative;
+
+}
+
+.navbar ul li.aws{
+    background-color: #ff9900;
+}
+
+.navbar ul li.aws:hover{
+    cursor: pointer;
+    background-color: #ffac31;
+}
+
+
+.navbar ul li {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #333;
+    display: inline-block;
+    padding: 15px;
+    position: relative;
+}
+
+
+.navbar ul li:hover {
+    cursor: pointer;
+    background-color: #f2f2f2;
+}
+
+
+.containerAbout {
+     width: 80%;
+     margin: 5% auto 0 auto;
+     background-color: #f9f9f9;
+     max-width: 800px;
+    justify-content: left;
+    -webkit-box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.15);
+     box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.15);
+    overflow: hidden;
+ }
+.containerAbout:hover{
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+
+}
+
+#myPhoto{
+    max-height: 300px;
+    border-radius: 50%;
+    padding: 50px;
+    float: left;
+    width: 30%;
+}
+
+#aboutText{
+    max-height: 300px;
+    padding: 50px;
+    float: left;
+    width: 70%;
+    font-family: "Open Sans", sans-serif;
+
+}
