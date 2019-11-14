@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="" xmlns="">
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
@@ -9,7 +9,7 @@
 </head>
 <body>
 <header>
-        <div class="navbar">
+        <div class="navbar" id="navbar">
             <div class="name">
                 <a href="#top">Kunal Ghosh</a>
             </div>
@@ -101,5 +101,17 @@
 <footer id="footer">
     <p>&copy; Kunal Ghosh 2019</p>
 </footer>
+<script>
+window.onscroll = function() {stickyBar()};
+let navbar = document.getElementById("navbar");
+let sticky = navbar.offsetTop;
+function stickyBar() {
+if (window.pageYOffset >= sticky) {
+navbar.classList.add("sticky")
+} else {
+navbar.classList.remove("sticky");
+}
+}
+</script>
 </body>
 </html>
