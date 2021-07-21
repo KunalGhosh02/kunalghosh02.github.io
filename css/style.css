@@ -19,8 +19,9 @@
     padding-right: 5rem;
 }
 
+
 .header_area .main-navbar .navbar {
-    padding: 1rem 5rem;
+    padding: 1rem 1rem;
 }
 
 .header_area .main-navbar .navbar-nav .nav-link {
@@ -47,6 +48,13 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
+
+@media (min-width: 768px){
+    .header_area .main-navbar .navbar {
+        padding: 1rem 5rem;
+    }
+}
+
 
 /* end nav area */
 
@@ -110,6 +118,7 @@ body {
     .mt-button-custom {
         margin-top: 1rem !important;
     }
+
 }
 
 @media(min-width: 498px) {
