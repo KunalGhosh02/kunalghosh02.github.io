@@ -1,25 +1,24 @@
+/* Global Classes */
 
-/* Global Classes */ 
-
-.title-text{
-    font: normal bold 50px/ 35px var(--poppins);
+.title-text {
+    font: normal bold 3em var(--poppins);
 }
 
-.text-uppercase{
+.text-uppercase {
     text-transform: uppercase;
 }
 
-/* Buttons */ 
+/* Buttons */
 
-.button{
+.button {
     padding: .8rem 2.2rem;
     font: normal 500 16px/20px var(--poppins);
     position: relative;
     border: 3px solid transparent;
-    border-radius: 4px;
+    border-radius: 4em;
 }
 
-.button.primary-button{
+.button.primary-button {
     background: var(--gradient-color);
     background-clip: padding-box;
     color: whitesmoke;
@@ -28,29 +27,29 @@
 }
 
 
-    .button.primary-button:hover{
-        background: whitesmoke;
-        background-clip: padding-box;
-        color: black;
-    }
-    
-    .button.primary-button::after{
-        position: absolute;
-        top: -2px; left: -2px;
-        bottom: -2px;  right: -2px;
-        background: var(--gradient-color);
-        content: ' ';
-        z-index: -1;
-        border-radius: 4px;
-    }
+.button.primary-button:hover {
+    background: whitesmoke;
+    background-clip: padding-box;
+    color: black;
+}
+
+.button.primary-button::after {
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    bottom: -2px;
+    right: -2px;
+    background: var(--gradient-color);
+    content: ' ';
+    z-index: -1;
+    border-radius: 4em;
+}
 
 
 
 button:focus,
-button:active
-button:hover
-.btn:active,
-.btn.active{
+button:active button:hover .btn:active,
+.btn.active {
     outline: 0px !important;
     box-shadow: none !important;
 }

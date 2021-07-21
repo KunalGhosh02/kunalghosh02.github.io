@@ -78,13 +78,14 @@ body {
 }
 
 
-.site-main .site-banner .site-title h1 {
-    font-size: 5rem;
-    line-height: 90px;
+.site-main .site-banner h1 {
+    font-size: 400%;
+    line-height: 1em;
 }
 
-.site-main .site-banner .site-title h4 {
-    font-size: 1.5rem;
+.site-main .site-banner  h4 {
+    /* font-size: 1.5em; */
+    font-size: 200%;
 }
 
 .mt-name-custom {
@@ -104,11 +105,11 @@ body {
 }
 
 .social-link{
-    transition: transform 0.6s ease-out;
+    transition: transform 0.6s ease-out, scale 0.6s ease-in-out;
 }
 
 .social-link:hover{
-    transform: translateY(-10px);
+    transform: translateY(-10px) scale(1.25, 1.25);
 }
 
 
@@ -172,15 +173,18 @@ body {
 }
 
 
-
-
-
 /* end main area */
+
+
+/* skills area */
+
+
+/* end skills area */
 
 /* glass card */
 
 .glass {
-    display: inline-block;
+    
     background: rgba(255, 255, 255, 0.2);
     padding: 3em;
     border-radius: 2em;
@@ -194,10 +198,29 @@ body {
 
 /* end of glass card */
 
-/* icon style */
+/* normal card */
 
-.icon{
-    fill: black;
+.card {
+    position: relative;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 3em;
+    border-radius: 2em;
+    z-index: 1;
+    backdrop-filter: blur(40px);
+    border: solid 2px transparent;
+    background-clip: padding-box;
+    box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
 }
 
-/* end icon style */
+.lang-card{
+    transition: transform 0.6s ease-out, scale 0.6s ease-in-out;
+    padding: 1em !important;
+}
+
+.lang-card:hover{
+    transform: scale(1.15);
+}
+
+
+/* end normal card */
+
