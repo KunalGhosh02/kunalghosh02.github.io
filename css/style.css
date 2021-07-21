@@ -1,0 +1,194 @@
+/* import fonts */
+
+
+@import url(./fonts.css);
+
+/* import variables */
+
+@import url(./variables.css);
+
+
+/* import global */
+
+@import url(./global.css);
+
+/* nav area */
+
+.header_area .main-navbar .navbar-brand {
+    padding-left: 0rem;
+    padding-right: 5rem;
+}
+
+.header_area .main-navbar .navbar {
+    padding: 1rem 5rem;
+}
+
+.header_area .main-navbar .navbar-nav .nav-link {
+    font-family: var(--poppins);
+    text-transform: uppercase;
+    font-weight: 500;
+    color: var(--text-color);
+    padding: 0.7rem;
+    color: var(--title-color);
+
+}
+
+.header_area .main-navbar .navbar-nav .active {
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+}
+
+.header_area .main-navbar .navbar-nav a:hover {
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* end nav area */
+
+
+/* main area */
+
+body {
+    z-index: -1;
+    height: 100vh;
+    background: url('/assets/images/hero.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.me {
+    border-radius: 50%;
+    background-color: #ADD8E6;
+}
+
+
+.site-main .site-banner .site-title h1 {
+    font-size: 5rem;
+    line-height: 90px;
+}
+
+.site-main .site-banner .site-title h4 {
+    font-size: 1.5rem;
+}
+
+.mt-name-custom {
+    margin-top: 2rem !important;
+}
+
+.mt-custom {
+    margin-top: 6rem !important;
+}
+
+.mt-custom-second{
+    margin-top: 1.5rem;
+}
+
+.mt-button-custom {
+    margin-top: 1rem;
+}
+
+.social-link{
+    transition: transform 0.6s ease-out;
+}
+
+.social-link:hover{
+    transform: translateY(-10px);
+}
+
+
+
+@media (max-width: 498px) {
+
+    .mt-button-custom {
+        margin-top: 1rem !important;
+    }
+}
+
+@media(min-width: 498px) {
+    .mt-button-custom {
+        margin-top: 0rem !important;
+    }
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .mt-custom {
+        margin-top: 7rem !important;
+    }
+
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .mt-custom {
+        margin-top: 10rem !important;
+    }
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .mt-custom {
+        margin-top: 7rem !important;
+    }
+
+    .mt-custom-second{
+        margin-top: 7rem;
+    }
+
+    .mt-button-custom {
+        margin-top: 1rem !important;
+    }
+
+}
+
+@media (min-width: 995px) {
+    .mt-button-custom {
+        margin-top: 0rem !important;
+    }
+}
+
+.ml-button-custom {
+    margin-left: 3rem;
+}
+
+
+
+
+
+/* end main area */
+
+/* glass card */
+
+.glass {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 3em;
+    border-radius: 2em;
+    position: relative;
+    z-index: 1;
+    backdrop-filter: blur(40px);
+    border: solid 2px transparent;
+    background-clip: padding-box;
+    box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
+}
+
+/* end of glass card */
+
+/* icon style */
+
+.icon{
+    fill: black;
+}
+
+/* end icon style */
