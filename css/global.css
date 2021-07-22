@@ -1,4 +1,18 @@
+
+html,
+body {
+    font-family: var(--poppins) !important;
+    margin: 0%;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
+
 /* Global Classes */
+.bold-text{
+    font-weight: bold;
+}
 
 .title-text {
     font: normal bold 3em var(--poppins);
@@ -7,6 +21,14 @@
 .text-uppercase {
     text-transform: uppercase;
 }
+
+/* link */
+
+a{color: inherit;}
+
+a:link { text-decoration: none; } 
+
+
 
 /* Buttons */
 

@@ -49,11 +49,7 @@
     background-clip: text;
 }
 
-@media (min-width: 768px){
-    .header_area .main-navbar .navbar {
-        padding: 1rem 5rem;
-    }
-}
+
 
 
 /* end nav area */
@@ -63,13 +59,13 @@
 
 body {
     z-index: -1;
-    height: 100vh;
+
     background: url('/assets/images/hero.png') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background-attachment: fixed;
+
 }
 
 .me {
@@ -83,7 +79,7 @@ body {
     line-height: 1em;
 }
 
-.site-main .site-banner  h4 {
+.site-main .site-banner h4 {
     /* font-size: 1.5em; */
     font-size: 200%;
 }
@@ -93,10 +89,10 @@ body {
 }
 
 .mt-custom {
-    margin-top: 6rem !important;
+    margin-top: 7rem !important;
 }
 
-.mt-custom-second{
+.mt-custom-second {
     margin-top: 1.5rem;
 }
 
@@ -104,87 +100,71 @@ body {
     margin-top: 1rem;
 }
 
-.social-link{
-    transition: transform 0.6s ease-out, scale 0.6s ease-in-out;
-}
-
-.social-link:hover{
-    transform: translateY(-10px) scale(1.25, 1.25);
-}
-
-
-
-@media (max-width: 498px) {
-
-    .mt-button-custom {
-        margin-top: 1rem !important;
-    }
-
-}
-
-@media(min-width: 498px) {
-    .mt-button-custom {
-        margin-top: 0rem !important;
-    }
-
-}
-
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
-    .mt-custom {
-        margin-top: 7rem !important;
-    }
-
-
-}
-
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-    .mt-custom {
-        margin-top: 10rem !important;
-    }
-
-}
-
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-    .mt-custom {
-        margin-top: 7rem !important;
-    }
-
-    .mt-custom-second{
-        margin-top: 7rem;
-    }
-
-    .mt-button-custom {
-        margin-top: 1rem !important;
-    }
-
-}
-
-@media (min-width: 995px) {
-    .mt-button-custom {
-        margin-top: 0rem !important;
-    }
-}
 
 .ml-button-custom {
     margin-left: 3rem;
 }
 
+.site-buttons {
+    margin-top: 1rem;
+}
+
+.social-link {
+    transition: transform 0.6s ease-out, scale 0.6s ease-in-out;
+}
+
+.social-link:hover {
+    transform: translateY(-10px) scale(1.25, 1.25);
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+    .mt-custom-second {
+        margin-top: 7rem;
+    }
+}
 
 /* end main area */
 
+/* exp area */
 
-/* skills area */
+.work-img {
+    border-radius: 1em;
+}
 
+/* exp area */
 
-/* end skills area */
+/* projects area */
+
+.project-image {
+    display: block;
+    max-width: 200px;
+    max-height: 200px;
+    width: auto;
+    height: auto;
+}
+
+/* end projects area */
+
+/* footer area */
+
+footer {
+    padding: 1rem;
+    background: whitesmoke;
+    text-align: center;
+}
+
+.copyright-text {
+    font-size: 0.8rem;
+}
+
+/* end footer area */
 
 /* glass card */
 
 .glass {
-    
+
     background: rgba(255, 255, 255, 0.2);
     padding: 3em;
     border-radius: 2em;
@@ -212,15 +192,59 @@ body {
     box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
 }
 
-.lang-card{
+.lang-card {
     transition: transform 0.6s ease-out, scale 0.6s ease-in-out;
     padding: 1em !important;
 }
 
-.lang-card:hover{
+.lang-card:hover {
     transform: scale(1.15);
 }
 
+.work-card {
+    padding: 1em;
+    transition: transform 0.6s ease-out, scale 0.6s ease-in-out;
+}
+
+.work-card:hover {
+    transform: translateY(-10px);
+}
 
 /* end normal card */
 
+/* timeline */
+
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+
+ul.timeline:before {
+    content: ' ';
+    background: var(--gradient-color);
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 1;
+}
+
+ul.timeline>li {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+ul.timeline>li:before {
+    content: ' ';
+    background: var(--gradient-color);
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 1;
+}
+
+/* end timeline */

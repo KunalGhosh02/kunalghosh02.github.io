@@ -18,6 +18,11 @@
     <!-- stylesheet -->
     <link rel="stylesheet" href="./css/style.css">
 
+    <!-- favicon -->
+
+    <link rel="icon" type="image/png" href="./assets/images/favicon.svg" />
+
+
     <title>Kunal Ghosh</title>
 </head>
 
@@ -37,11 +42,11 @@
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div class="ms-auto"></div>
                         <div class="navbar-nav">
-                            <a class="nav-link active" aria-current="page" href="#home">about me</a>
+                            <a class="nav-link" aria-current="page" href="#home">about me</a>
                             <a class="nav-link" href="#skills">skills</a>
-                            <a class="nav-link" href="#">experience</a>
-                            <a class="nav-link" href="#">education</a>
-                            <a class="nav-link" href="#">projects</a>
+                            <a class="nav-link" href="#experience">experience</a>
+                            <a class="nav-link" href="#education">education</a>
+                            <a class="nav-link" href="#projects">projects</a>
 
                         </div>
                     </div>
@@ -70,16 +75,16 @@
                                 <div class="col-12 mb-3">
                                     <h1 class="mt-name-custom title-text text-uppercase">Kunal Ghosh</h1>
                                     <h4 class="title-text text-uppercase">Developer | BS Computer Science Student</h4>
-                                    <h6 class=" text-uppercase"> kunalghosh.res@gmail.com</h6>
-                                    <h7 class="text-uppercase"> new delhi, india</h7>
+                                    <h5 class=" text-uppercase"> kunalghosh.res@gmail.com</h5>
+                                    <h6 class="text-uppercase"> new delhi, india</h6>
                                 </div>
                             </div>
                             <div class="site-buttons">
                                 <div class="d-flex flex-row flex-wrap justify-content-end">
-                                    <button type="button" class="btn button primary-button roun text-uppercase">get
-                                        resume</button>
+                                    <button type="button" onclick="location.href = 'https:/\/docs.google.com/document/d/1R0rv1panNntP1s1wpm4nuceq5TXCI_OePeWOod7i098/edit?usp=sharing'"
+                                        class="btn button primary-button mt-button-custom text-uppercase">resume</button>
                                     <button type="button" onclick="location.href = 'mailto:kunalghosh.res@gmail.com'"
-                                        class="btn button ml-button-custom mt-button-custom primary-button text-uppercase">e-mail
+                                        class="btn button ml-button-custom mt-button-custom primary-button text-uppercase">email
                                         me</button>
 
                                 </div>
@@ -122,23 +127,29 @@
                     <div class="col-lg-6 col-md-12 banner-image">
 
                         <div class="glass mt-custom-second">
-                            <p class="title-text text-uppercase">About me</p>
-                            <p>Hey, nice to meet you, I am Kunal, an undergraduate Computer Science student from India,
-                                currently studying in Sharda University, Greater Noida. I am an Open Source Enthusiast,
-                                Android
-                                Developer getting on cross platform development using Flutter, I am also a Full Stack
-                                Web Developer using MERN stack. I also like to experiment with UI/UX. I like to work in
-                                a
-                                fast paced environment where I can
-                                have the opportunity to learn many things at once. If you think I would be a good fit
-                                for something you are working on, feel free to drop an e-mail to get in touch anywhere,
-                                I will be happy to discuss. </p>
-                            <p>I also like to draw and play games. If you play any games add me on Steam. :)</p>
+                            <p class="title-text text-uppercase">Hello!</p>
+                            <p>Nice to meet you, I am <span class="bold-text">Kunal Ghosh</span>, an undergraduate
+                                <span class="bold-text">Computer Science student</span> from India,
+                                currently studying in Sharda University, Greater Noida.
+
+                                <p> I am an <span class="bold-text">Open Source Enthusiast, Android
+                                        Developer</span> getting on cross platform development using <span
+                                        class="bold-text">Flutter</span>, I am also a <span class="bold-text">Full
+                                        Stack
+                                        Web Developer using MERN stack</span>. I also like to experiment with <span
+                                        class="bold-text">UI/UX</span>. </p>
+
+                                <p>I like to work in
+                                    a
+                                    fast paced environment where I can
+                                    have the opportunity to learn many things at once. If you think I would be a good
+                                    fit
+                                    for something you are working on, feel free to drop an email or get in touch
+                                    anywhere,
+                                    I will be happy to discuss. </p>
                         </div>
 
-                        <div class="glass mt-4">
-                            <p>Still under construction, meanwhile feel free to conatact me.</p>
-                        </div>
+
                     </div>
                 </div>
             </div>
@@ -149,329 +160,568 @@
 
         <section id="skills" class="skills-section">
             <div class="container-fluid">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="card mt-4">
-                            <div class="d-flex flex-row justify-content-start">
-                                <h2 class="text-uppercase title-text">
-                                    skills
-                                </h2>
+
+
+                <div class="card mt-4">
+                    <div class="d-flex flex-row justify-content-start">
+                        <h2 class="text-uppercase title-text">
+                            i'm familiar with
+                        </h2>
+                    </div>
+
+                    <!-- languages -->
+
+                    <div class="d-flex mt-4 flex-row justify-content-start">
+                        <h3 class="text-uppercase">
+                            languages
+                        </h3>
+                    </div>
+                    <div class="d-flex flex-row align-content-around flex-wrap justify-content-start">
+                        <div class="me-3 mt-3">
+                            <div class="card lang-card">
+                                <img src="./assets/images/icons/c.svg" alt="C" height="50" width="50">
                             </div>
 
-                            <!-- languages -->
 
-                            <div class="d-flex mt-4 flex-row justify-content-start">
-                                <h3 class="text-uppercase">
-                                    languages
-                                </h3>
-                            </div>
-                            <div class="d-flex flex-row align-content-around flex-wrap justify-content-start">
-                                <div class="me-3 mt-3">
-                                    <div class="card lang-card">
-                                        <img src="./assets/images/icons/c.svg" alt="C" height="50" width="50">
-                                    </div>
+                        </div>
+                        <div class="me-3 mt-3">
+                            <div class="card lang-card">
 
-
-                                </div>
-                                <div class="me-3 mt-3">
-                                    <div class="card lang-card">
-
-                                        <img src="./assets/images/icons/cpp.svg" alt="cpp" height="50" width="50">
-                                    </div>
-
-
-                                </div>
-                                <div class="me-3 mt-3">
-                                    <div class="card lang-card">
-
-                                        <img src="./assets/images/icons/java.svg" alt="java" height="50" width="50">
-
-                                    </div>
-
-
-                                </div>
-                                <div class="me-3 mt-3">
-                                    <div class="card lang-card">
-
-                                        <img src="./assets/images/icons/js.svg" alt="js" height="50" width="">
-
-                                    </div>
-
-
-                                </div>
-                                <div class="me-3 mt-3">
-                                    <div class="card lang-card">
-
-                                        <img src="./assets/images/icons/python.svg" alt="python" width="50" height="50">
-
-                                    </div>
-
-
-                                </div>
-                                <div class="me-3 mt-3">
-                                    <div class="card lang-card">
-
-                                        <img src="./assets/images/icons/dart.svg" alt="dart" width="50" height="50">
-
-                                    </div>
-
-
-                                </div>
-                                <div class="me-3 mt-3">
-                                    <div class="card lang-card">
-
-                                        <img src="./assets/images/icons/Rlogo.svg" alt="R" width="50" height="50">
-                                    </div>
-
-
-                                </div>
-                                <div class="me-3 mt-3">
-                                    <div class="card lang-card">
-                                        <img src="./assets/images/icons/kotlin.svg" alt="kotlin" height="50" width="50">
-
-                                    </div>
-
-
-                                </div>
-
-
+                                <img src="./assets/images/icons/cpp.svg" alt="cpp" height="50" width="50">
                             </div>
 
-                            <!-- end languages -->
 
-                            <!-- frameworks -->
+                        </div>
+                        <div class="me-3 mt-3">
+                            <div class="card lang-card">
 
-                            <div class="d-flex mt-4 flex-row justify-content-start">
-                                <h3 class="text-uppercase">
-                                    frameworks
-                                </h3>
-                            </div>
-                            <div class="d-flex flex-row align-content-around flex-wrap justify-content-start">
-                                <div class="me-3 mt-3">
-                                    <div class="card lang-card">
-                                        <img src="./assets/images/icons/flutter.svg" alt="Flutter" height="50">
-                                    </div>
-
-
-                                </div>
-                                <div class="me-3 mt-3">
-                                    <div class="card lang-card">
-                                        <img src="./assets/images/icons/Qt.svg" alt="Qt" height="50">
-                                    </div>
-
-
-                                </div>
-                                <div class="me-3 mt-3">
-                                    <div class="card lang-card">
-                                        <img src="./assets/images/icons/reactjs.svg" alt="React" height="50">
-                                    </div>
-
-
-                                </div>
-
-
-                            </div>
-
-                            <!-- end framework -->
-
-                            <!-- front end web -->
-
-                            <div class="d-flex mt-4 flex-row justify-content-start">
-                                <h3 class="text-uppercase">
-                                    front end web
-                                </h3>
-                            </div>
-                            <div class="d-flex flex-row align-content-around flex-wrap justify-content-start">
-                                <div class="me-3 mt-3">
-                                    <div class="card lang-card">
-                                        <img src="./assets/images/icons/html.svg" alt="html" height="50" width="50">
-                                    </div>
-                                </div>
-                                <div class="me-3 mt-3">
-                                    <div class="card lang-card">
-                                        <img src="./assets/images/icons/css.svg" alt="css" height="50" width="50">
-                                    </div>
-                                </div>
-                                <div class="me-3 mt-3">
-                                    <div class="card lang-card">
-                                        <img src="./assets/images/icons/jquery.svg" alt="jquery" height="50" width="50">
-                                    </div>
-                                </div>
-                                <div class="me-3 mt-3">
-                                    <div class="card lang-card">
-                                        <img src="./assets/images/icons/bootstrap.svg" alt="boostrap" height="50"
-                                            width="50">
-                                    </div>
-                                </div>
-
-                                <div class="me-3 mt-3">
-                                    <div class="card lang-card">
-                                        <img src="./assets/images/icons/sass.svg" alt="sass" height="50" width="50">
-                                    </div>
-                                </div>
+                                <img src="./assets/images/icons/java.svg" alt="java" height="50" width="50">
 
                             </div>
 
 
-                            <!-- end front end web -->
+                        </div>
+                        <div class="me-3 mt-3">
+                            <div class="card lang-card">
 
-                            <!-- backend -->
-
-                            <div class="d-flex mt-4 flex-row justify-content-start">
-                                <h3 class="text-uppercase">
-                                    backend
-                                </h3>
-                            </div>
-                            <div class="d-flex flex-row align-content-around flex-wrap justify-content-start">
-                                <div class="me-3 mt-3">
-                                    <div class="card lang-card">
-                                        <img src="./assets/images/icons/node.svg" alt="node" height="50">
-                                    </div>
-                                </div>
-                                <div class="me-3 mt-3">
-                                    <div class="card lang-card">
-                                        <img src="./assets/images/icons/express.svg" alt="express" height="50">
-                                    </div>
-                                </div>
-                                <div class="me-3 mt-3">
-                                    <div class="card lang-card">
-                                        <img src="./assets/images/icons/apache.svg" alt="express" height="50">
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- end backend -->
-
-                            <!-- database -->
-
-                            <div class="d-flex mt-4 flex-row justify-content-start">
-                                <h3 class="text-uppercase">
-                                    database
-                                </h3>
-                            </div>
-                            <div class="d-flex flex-row align-content-around flex-wrap justify-content-start">
-                                <div class="me-3 mt-3">
-                                    <div class="card lang-card">
-                                        <img src="./assets/images/icons/mysql.svg" alt="nmysql" height="50" width="50">
-                                    </div>
-                                </div>
-                                <div class="me-3 mt-3">
-                                    <div class="card lang-card">
-                                        <img src="./assets/images/icons/mongo.svg" alt="mongoDB" height="50">
-                                    </div>
-                                </div>
-                                <div class="me-3 mt-3">
-                                    <div class="card lang-card">
-                                        <img src="./assets/images/icons/postgre.svg" alt="postgre" height="50"
-                                            width="50">
-                                    </div>
-                                </div>
-                                <div class="me-3 mt-3">
-                                    <div class="card lang-card">
-                                        <img src="./assets/images/icons/firebase.svg" alt="firebase" height="50"
-                                            width="50">
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- end database -->
-
-                            <!-- cloud -->
-
-                            <div class="d-flex mt-4 flex-row justify-content-start">
-                                <h3 class="text-uppercase">
-                                    cloud
-                                </h3>
-                            </div>
-                            <div class="d-flex flex-row align-content-around flex-wrap justify-content-start">
-                                <div class="me-3 mt-3">
-                                    <div class="card lang-card">
-                                        <img src="./assets/images/icons/gcloud.svg" alt="google cloud" height="50"
-                                            width="50">
-                                    </div>
-                                </div>
-                                <div class="me-3 mt-3">
-                                    <div class="card lang-card">
-                                        <img src="./assets/images/icons/aws.svg" alt="aws" height="50" width="50">
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- end cloud -->
-
-                            <!-- vcs -->
-
-
-                            <div class="d-flex mt-4 flex-row justify-content-start">
-                                <h3 class="text-uppercase">
-                                    vcs
-                                </h3>
-                            </div>
-                            <div class="d-flex flex-row align-content-around flex-wrap justify-content-start">
-                                <div class="me-3 mt-3">
-                                    <div class="card lang-card">
-                                        <img src="./assets/images/icons/git.svg" alt="git" height="50" width="50">
-                                    </div>
-                                </div>
-
-                            </div>
-
-                            <!-- end vcs -->
-
-                            <!-- build tools -->
-
-                            <div class="d-flex mt-4 flex-row justify-content-start">
-                                <h3 class="text-uppercase">
-                                    build tools
-                                </h3>
-                            </div>
-                            <div class="d-flex flex-row align-content-around flex-wrap justify-content-start">
-                                <div class="me-3 mt-3">
-                                    <div class="card lang-card">
-                                        <img src="./assets/images/icons/gradle.svg" alt="gradle" height="50">
-                                    </div>
-                                </div>
-                                <div class="me-3 mt-3">
-                                    <div class="card lang-card">
-                                        <img src="./assets/images/icons/cmake.svg" alt="cmake" height="50">
-                                    </div>
-                                </div>
+                                <img src="./assets/images/icons/js.svg" alt="js" height="50" width="">
 
                             </div>
 
 
-                            <!-- end  build tools -->
+                        </div>
+                        <div class="me-3 mt-3">
+                            <div class="card lang-card">
 
-                            <!-- ci/cd -->
-
-                            <div class="d-flex mt-4 flex-row justify-content-start">
-                                <h3 class="text-uppercase">
-                                    CI/CD
-                                </h3>
-                            </div>
-                            <div class="d-flex flex-row align-content-around flex-wrap justify-content-start">
-                                <div class="me-3 mt-3">
-                                    <div class="card lang-card">
-                                        <img src="./assets/images/icons/jenkins.svg" alt="jenkins" height="50">
-                                    </div>
-                                </div>
-
+                                <img src="./assets/images/icons/python.svg" alt="python" width="50" height="50">
 
                             </div>
 
-                            <!-- end ci/cd -->
+
+                        </div>
+                        <div class="me-3 mt-3">
+                            <div class="card lang-card">
+
+                                <img src="./assets/images/icons/dart.svg" alt="dart" width="50" height="50">
+
+                            </div>
+
+
+                        </div>
+                        <div class="me-3 mt-3">
+                            <div class="card lang-card">
+
+                                <img src="./assets/images/icons/Rlogo.svg" alt="R" width="50" height="50">
+                            </div>
+
+
+                        </div>
+                        <div class="me-3 mt-3">
+                            <div class="card lang-card">
+                                <img src="./assets/images/icons/kotlin.svg" alt="kotlin" height="50" width="50">
+
+                            </div>
+
+
+                        </div>
+
+
+                    </div>
+
+                    <!-- end languages -->
+
+                    <!-- frameworks -->
+
+                    <div class="d-flex mt-4 flex-row justify-content-start">
+                        <h3 class="text-uppercase">
+                            frameworks
+                        </h3>
+                    </div>
+                    <div class="d-flex flex-row align-content-around flex-wrap justify-content-start">
+                        <div class="me-3 mt-3">
+                            <div class="card lang-card">
+                                <img src="./assets/images/icons/flutter.svg" alt="Flutter" height="50">
+                            </div>
+
+
+                        </div>
+                        <div class="me-3 mt-3">
+                            <div class="card lang-card">
+                                <img src="./assets/images/icons/Qt.svg" alt="Qt" height="50">
+                            </div>
+
+
+                        </div>
+                        <div class="me-3 mt-3">
+                            <div class="card lang-card">
+                                <img src="./assets/images/icons/reactjs.svg" alt="React" height="50">
+                            </div>
+
+
+                        </div>
+
+
+                    </div>
+
+                    <!-- end framework -->
+
+                    <!-- front end web -->
+
+                    <div class="d-flex mt-4 flex-row justify-content-start">
+                        <h3 class="text-uppercase">
+                            front end web
+                        </h3>
+                    </div>
+                    <div class="d-flex flex-row align-content-around flex-wrap justify-content-start">
+                        <div class="me-3 mt-3">
+                            <div class="card lang-card">
+                                <img src="./assets/images/icons/html.svg" alt="html" height="50" width="50">
+                            </div>
+                        </div>
+                        <div class="me-3 mt-3">
+                            <div class="card lang-card">
+                                <img src="./assets/images/icons/css.svg" alt="css" height="50" width="50">
+                            </div>
+                        </div>
+                        <div class="me-3 mt-3">
+                            <div class="card lang-card">
+                                <img src="./assets/images/icons/jquery.svg" alt="jquery" height="50" width="50">
+                            </div>
+                        </div>
+                        <div class="me-3 mt-3">
+                            <div class="card lang-card">
+                                <img src="./assets/images/icons/bootstrap.svg" alt="boostrap" height="50" width="50">
+                            </div>
+                        </div>
+
+                        <div class="me-3 mt-3">
+                            <div class="card lang-card">
+                                <img src="./assets/images/icons/sass.svg" alt="sass" height="50" width="50">
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <!-- end front end web -->
+
+                    <!-- backend -->
+
+                    <div class="d-flex mt-4 flex-row justify-content-start">
+                        <h3 class="text-uppercase">
+                            backend
+                        </h3>
+                    </div>
+                    <div class="d-flex flex-row align-content-around flex-wrap justify-content-start">
+                        <div class="me-3 mt-3">
+                            <div class="card lang-card">
+                                <img src="./assets/images/icons/node.svg" alt="node" height="50">
+                            </div>
+                        </div>
+                        <div class="me-3 mt-3">
+                            <div class="card lang-card">
+                                <img src="./assets/images/icons/express.svg" alt="express" height="50">
+                            </div>
+                        </div>
+                        <div class="me-3 mt-3">
+                            <div class="card lang-card">
+                                <img src="./assets/images/icons/apache.svg" alt="express" height="50">
+                            </div>
                         </div>
                     </div>
+                    <!-- end backend -->
+
+                    <!-- database -->
+
+                    <div class="d-flex mt-4 flex-row justify-content-start">
+                        <h3 class="text-uppercase">
+                            database
+                        </h3>
+                    </div>
+                    <div class="d-flex flex-row align-content-around flex-wrap justify-content-start">
+                        <div class="me-3 mt-3">
+                            <div class="card lang-card">
+                                <img src="./assets/images/icons/mysql.svg" alt="nmysql" height="50" width="50">
+                            </div>
+                        </div>
+                        <div class="me-3 mt-3">
+                            <div class="card lang-card">
+                                <img src="./assets/images/icons/mongo.svg" alt="mongoDB" height="50">
+                            </div>
+                        </div>
+                        <div class="me-3 mt-3">
+                            <div class="card lang-card">
+                                <img src="./assets/images/icons/postgre.svg" alt="postgre" height="50" width="50">
+                            </div>
+                        </div>
+                        <div class="me-3 mt-3">
+                            <div class="card lang-card">
+                                <img src="./assets/images/icons/firebase.svg" alt="firebase" height="50" width="50">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end database -->
+
+                    <!-- cloud -->
+
+                    <div class="d-flex mt-4 flex-row justify-content-start">
+                        <h3 class="text-uppercase">
+                            cloud
+                        </h3>
+                    </div>
+                    <div class="d-flex flex-row align-content-around flex-wrap justify-content-start">
+                        <div class="me-3 mt-3">
+                            <div class="card lang-card">
+                                <img src="./assets/images/icons/gcloud.svg" alt="google cloud" height="50" width="50">
+                            </div>
+                        </div>
+                        <div class="me-3 mt-3">
+                            <div class="card lang-card">
+                                <img src="./assets/images/icons/aws.svg" alt="aws" height="50" width="50">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end cloud -->
+
+                    <!-- vcs -->
+
+
+                    <div class="d-flex mt-4 flex-row justify-content-start">
+                        <h3 class="text-uppercase">
+                            vcs
+                        </h3>
+                    </div>
+                    <div class="d-flex flex-row align-content-around flex-wrap justify-content-start">
+                        <div class="me-3 mt-3">
+                            <div class="card lang-card">
+                                <img src="./assets/images/icons/git.svg" alt="git" height="50" width="50">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- end vcs -->
+
+                    <!-- build tools -->
+
+                    <div class="d-flex mt-4 flex-row justify-content-start">
+                        <h3 class="text-uppercase">
+                            build tools
+                        </h3>
+                    </div>
+                    <div class="d-flex flex-row align-content-around flex-wrap justify-content-start">
+                        <div class="me-3 mt-3">
+                            <div class="card lang-card">
+                                <img src="./assets/images/icons/gradle.svg" alt="gradle" height="50">
+                            </div>
+                        </div>
+                        <div class="me-3 mt-3">
+                            <div class="card lang-card">
+                                <img src="./assets/images/icons/cmake.svg" alt="cmake" height="50">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- end  build tools -->
+
+                    <!-- testing -->
+
+                    <div class="d-flex mt-4 flex-row justify-content-start">
+                        <h3 class="text-uppercase">
+                            testing
+                        </h3>
+                    </div>
+                    <div class="d-flex flex-row align-content-around flex-wrap justify-content-start">
+                        <div class="me-3 mt-3">
+                            <div class="card lang-card">
+                                <img src="./assets/images/icons/junit-logo.png" alt="junit" height="50">
+                            </div>
+                        </div>
+                        <div class="me-3 mt-3">
+                            <div class="card lang-card">
+                                <img src="./assets/images/icons/google-test.svg" alt="google test" height="50">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- end testing -->
+
+                    <!-- ci/cd -->
+
+                    <div class="d-flex mt-4 flex-row justify-content-start">
+                        <h3 class="text-uppercase">
+                            CI/CD
+                        </h3>
+                    </div>
+                    <div class="d-flex flex-row align-content-around flex-wrap justify-content-start">
+                        <div class="me-3 mt-3">
+                            <div class="card lang-card">
+                                <img src="./assets/images/icons/jenkins.svg" alt="jenkins" height="50">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- end ci/cd -->
+
+                    <!-- design -->
+
+                    <div class="d-flex mt-4 flex-row justify-content-start">
+                        <h3 class="text-uppercase">
+                            Design
+                        </h3>
+                    </div>
+                    <div class="d-flex flex-row align-content-around flex-wrap justify-content-start">
+                        <div class="me-3 mt-3">
+                            <div class="card lang-card">
+                                <img src="./assets/images/icons/adobe-xd.svg" alt="adobe xd" height="50" width="50">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- enddesign -->
+
+                    <!-- others -->
+                    <div class="d-flex mt-4 flex-row justify-content-start">
+                        <h3 class="text-uppercase">
+                            others
+                        </h3>
+                    </div>
+                    <div class="d-flex flex-row align-content-around flex-wrap justify-content-start">
+                        <div class="me-3 mt-3">
+                            <div class="card lang-card">
+                                <img src="./assets/images/icons/linux.svg" alt="linux" height="50">
+                            </div>
+                        </div>
+                        <div class="me-3 mt-3">
+                            <div class="card lang-card">
+                                <img src="./assets/images/icons/jupyter.svg" alt="jupyter" height="50">
+                            </div>
+                        </div>
+                        <div class="me-3 mt-3">
+                            <div class="card lang-card">
+                                <img src="./assets/images/icons/android_studio.svg" alt="android studio" height="50">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end others -->
                 </div>
+
+
         </section>
 
         <!-- end skills section -->
 
+        <!-- experience area -->
+
+        <section id="experience" class="experience section">
+
+            <div class="container-fluid">
+                <div class="card mt-4">
+                    <div class="d-flex justify-content-left title-text text-uppercase">experience</div>
+                    <div class="d-flex flex-row justify-content-start mt-4">
+                        <h4 class="text-uppercase">
+                            work
+                        </h4>
+                    </div>
+
+                    <div class="d-flex flex-row flex-wrap justify-content-start">
+                        <div class="me-3 mt-3">
+                            <div class="card work-card">
+                                <a href="https://www.mentzy.com"><img class="work-img"
+                                        src="./assets/images/work/mentzy.png" alt="linux" height="70" width="70"></a>
+                                <div class="mt-2 col">
+                                    <a href="https://www.mentzy.com">
+                                        <h4 class="text-uppercase">mentzy</h4>
+                                    </a>
+                                    <h5>Mobile Application Developer - Flutter</h5>
+                                    <h6 class="text-uppercase">intern (June 2021 - Present)</h6>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+        </section>
+
+        <!-- end experience area -->
+
+        <!-- education area -->
+
+        <section id="education" class="education-section">
+            <div class="container-fluid">
+                <div class="card mt-4">
+                    <div class="d-flex justify-content-left title-text text-uppercase">education</div>
+
+                    <div class="d-flex flex-row justify-content-start mt-4">
+                        <h4 class="text-uppercase">
+                            academics
+                        </h4>
+                    </div>
+                    <div class="d-flex flex-row flex-wrap justify-content-start">
+
+                        <div class="row">
+                            <div class="col-12">
+
+                                <ul class="timeline">
+                                    <li>
+                                        <h6 class="text-uppercase">Secondary</h6>
+                                        <p>CBSE(2017)</p>
+                                    </li>
+                                    <li>
+                                        <h6 class="text-uppercase">Seenior Secondary</h6>
+                                        <p>CBSE(2019)</p>
+                                    </li>
+                                    <li>
+                                        <h6 class="text-uppercase">Bachelor of Science (Hons.) Physics</h6>
+                                        <p>2019-2020</p>
+                                    </li>
+                                    <li>
+                                        <h6 class="text-uppercase">Bachelor of Science (Hons.) Computer Science</h6>
+                                        <p>2021-current</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-row justify-content-start mt-4">
+                        <h4 class="text-uppercase">
+                            certificates
+                        </h4>
+                    </div>
+
+                    <div class="d-flex flex-row flex-wrap justify-content-start">
+                        <div class=" mt-3">
+                            <a href="https://graduation.udacity.com/confirm/UPPAHKUU">
+                                <div class="card work-card">
+                                    <img src="./assets/images/icons/udacity.svg" alt="udacity">
+                                    <h5 style="text-align: center;">C++ Developer Nanodegree</h5>
+                                    <p style="text-align: center;">View Certificate</p>
+                                </div>
+                            </a>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <!-- end education area -->
+
+        <!-- projects area -->
+
+        <section id="projects" class="projects-section">
+            <div class="container-fluid">
+                <div class="card mt-4 mb-4">
+
+                    <div class="d-flex justify-content-left title-text text-uppercase">projects</div>
+
+                    <div class="d-flex flex-row flex-wrap justify-content-start">
+                        <div class="me-3 mt-3">
+                            <a href="https://github.com/KunalGhosh02/snake-game-sdl">
+                                <div class="card work-card mt-4">
+                                    <div class="row">
+                                        <img class="col-12 col-lg-2 project-image" src="./assets/gif/snake_game.gif"
+                                            alt="snake game" width="200">
+                                        <div class="col-12 col-lg-10">
+                                            <h5 class="mt-3 text-uppercase">snake game sdl</h5>
+                                            <p>This implementation of the classic arcade snake game demonstrates my
+                                                understanding
+                                                of core C++ concepts, such as control flow, encapsulation, data streams,
+                                                object oriented patterns, move semantics, concurrency, RAII etc. This
+                                                game
+                                                is made using libSDL, a C++ graphics library.It uses tile-mapping to
+                                                generate maps. A txt file of binary values is used to represent a grid
+                                                of
+                                                32x32 tiles which is then loaded and the map for that session is
+                                                generated.
+                                                For more information, please check the linked GitHub repository.
+                                            </p>
+                                            <p class="center-text">Go to repository <i class="bi bi-arrow-right"></i>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </a>
+                            <div class="card work-card mt-4">
+                                <div class="ms-2 mt-3 col">
+                                    <h5 class=" text-uppercase"></i>this portfolio</h5>
+                                    <p>Created this portfolio using HTML, CSS, Bootstrap and minimal js.</p>
+                                </div>
+                            </div>
+                            <div class="card work-card mt-4">
+                                <div class="col">
+
+                                    <h5 class="ms-2 mt-3 text-uppercase"><i class="me-2 bi bi-clock"></i>more
+                                        underway...</h5>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <!-- end projects area -->
+
+        <!-- footer -->
+
+        <footer>
+            <button class="btn" onclick="topFunction()" title="Go to top">Back to top <i class="bi bi-arrow-bar-up"></i>
+            </button>
+
+            <p>If you liked what you saw, don't hesitate to contact me! :)</p>
+            <div class="copyright-text">
+                &copy;
+                <span id="copyright">
+                    <script>
+                        document.getElementById('copyright').appendChild(document.createTextNode(new Date()
+                            .getFullYear()))
+                    </script>
+                </span>
+                All rights reserved.
+            </div>
+        </footer>
+
+        <!-- end footer -->
+
+
+
     </main>
     <!-- end main area -->
 
-    <!-- start about section -->
-
-
-
-    <!-- end about section -->
 
     <!-- bootstrap bundle -->
 
@@ -479,10 +729,9 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
     </script>
 
+    <!-- main css -->
 
-    <script defer src="https://code.jquery.com/jquery-3.6.0.min.js"
-        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-
+    <script defer src="./js/main.js"></script>
 
 </body>
 
