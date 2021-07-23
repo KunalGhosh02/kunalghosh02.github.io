@@ -1,6 +1,7 @@
 
 html,
 body {
+    overflow-wrap: anywhere;
     font-family: var(--poppins) !important;
     margin: 0%;
     box-sizing: border-box;

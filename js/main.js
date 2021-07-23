@@ -5,6 +5,8 @@ function topFunction() {
 }
 
 
+
+
 $(".nav-link").click(function () {
   var href = $(this).attr('href');
   $('html,body').animate({
@@ -22,3 +24,16 @@ $(window).on('scroll', e => {
     }
   })
 })
+
+$(window).scroll(function () { 
+
+  console.log($(window).scrollTop());
+
+  if ($(window).scrollTop() > 500) {
+    $('.navbar').removeClass('transparent');
+  }
+
+  if ($(window).scrollTop() < 501) {
+    $('.navbar').addClass('transparent');
+  }
+});

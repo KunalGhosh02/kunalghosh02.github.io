@@ -15,7 +15,6 @@
 /* nav area */
 
 .header_area .main-navbar .navbar-brand {
-    padding-left: 0rem;
     padding-right: 5rem;
 }
 
@@ -25,12 +24,9 @@
 }
 
 .header_area .main-navbar .navbar-nav .nav-link {
-    font-family: var(--poppins);
     text-transform: uppercase;
     font-weight: 500;
-    color: var(--text-color);
     padding: 0.7rem;
-    color: var(--title-color);
 
 }
 
@@ -49,6 +45,12 @@
     background-clip: text;
 }
 
+.transparent{
+    background: rgba(255, 255, 255, 0.2) !important;
+    backdrop-filter: blur(40px) !important;
+    background-clip: padding-box !important;
+    box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03) !important;
+}
 
 
 
@@ -58,8 +60,7 @@
 /* main area */
 
 body {
-    z-index: -1;
-    background: url('/assets/images/hero.svg') no-repeat fixed;
+    background: url('/assets/images/hero.svg') fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -73,15 +74,15 @@ body {
 }
 
 
-.site-main .site-banner h1 {
-    font-size: 400%;
+.site-main .site-banner h3 {
+    font-size: 350%;
     line-height: 1em;
 }
 
 .site-main .site-banner h4 {
-    /* font-size: 1.5em; */
     font-size: 200%;
 }
+
 
 .mt-name-custom {
     margin-top: 2rem !important;
@@ -145,6 +146,16 @@ body {
 }
 
 /* exp area */
+
+/* edu */
+.certificate-image{
+    max-width: 300px !important;
+    max-height: 150px !important;
+    width: auto !important;
+    height: auto !important;
+}
+
+/* end edu */
 
 /* projects area */
 
