@@ -4,12 +4,21 @@ function topFunction() {
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
 
+
 $(".nav-link").click(function () {
   var href = $(this).attr('href');
-  $(".navbar-nav .nav-link").removeClass('active');
-  $(this).addClass('active');
   $('html,body').animate({
       scrollTop: $(href).offset().top + -100
     },
     'fast');
 });
+
+$(window).on('scroll', e => {
+  $('section').each(function () {
+    if ($(this).offset().top - 140 < $(window).scrollTop()) {
+      let id = '#nav-' + $(this).attr('id');
+      $('.navbar-nav .nav-link').removeClass('active')
+      $('.navbar-nav .nav-link' + id).addClass('active')
+    }
+  })
+})

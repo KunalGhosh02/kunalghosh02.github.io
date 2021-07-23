@@ -18,8 +18,6 @@ body {
     font: normal bold 2em var(--poppins);
 }
 
-
-
 .text-uppercase {
     text-transform: uppercase;
 }
@@ -33,7 +31,11 @@ body {
 
 a{color: inherit;}
 
-a:link { text-decoration: none; } 
+a:link { text-decoration: none; }
+
+a:hover{
+   color: #ee0979;
+}
 
 
 

@@ -59,8 +59,7 @@
 
 body {
     z-index: -1;
-
-    background: url('/assets/images/hero.png') no-repeat center center fixed;
+    background: url('/assets/images/hero.svg') no-repeat fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -116,6 +115,7 @@ body {
 .social-link:hover {
     transform: translateY(-10px) scale(1.25, 1.25);
 }
+
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
