@@ -25,9 +25,7 @@ $(window).on('scroll', e => {
   })
 })
 
-$(window).scroll(function () { 
-
-  console.log($(window).scrollTop());
+$(window).scroll(function () {
 
   if ($(window).scrollTop() > 500) {
     $('.navbar').removeClass('transparent');

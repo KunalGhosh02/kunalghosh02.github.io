@@ -45,7 +45,7 @@
     background-clip: text;
 }
 
-.transparent{
+.transparent {
     background: rgba(255, 255, 255, 0.2) !important;
     backdrop-filter: blur(40px) !important;
     background-clip: padding-box !important;
@@ -148,7 +148,7 @@ body {
 /* exp area */
 
 /* edu */
-.certificate-image{
+.certificate-image {
     max-width: 300px !important;
     max-height: 150px !important;
     width: auto !important;

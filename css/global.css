@@ -1,3 +1,6 @@
+* {
+    -webkit-overflow-scrolling: touch !important;
+}
 
 html,
 body {
@@ -11,7 +14,7 @@ body {
 
 
 /* Global Classes */
-.bold-text{
+.bold-text {
     font-weight: bold;
 }
 
@@ -23,19 +26,23 @@ body {
     text-transform: uppercase;
 }
 
-.title-text-second{
+.title-text-second {
     font-size: 1em;
-    
+
 }
 
 /* link */
 
-a{color: inherit;}
+a {
+    color: inherit;
+}
 
-a:link { text-decoration: none; }
+a:link {
+    text-decoration: none;
+}
 
-a:hover{
-   color: #ee0979;
+a:hover {
+    color: #ee0979;
 }
 
 
