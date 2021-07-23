@@ -15,8 +15,10 @@ body {
 }
 
 .title-text {
-    font: normal bold 3em var(--poppins);
+    font: normal bold 2em var(--poppins);
 }
+
+
 
 .text-uppercase {
     text-transform: uppercase;
