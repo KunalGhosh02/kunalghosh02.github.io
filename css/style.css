@@ -65,12 +65,8 @@
 /* main area */
 
 body {
-    top: 0;
-    left: 0;
-    background: url('/assets/images/hero.svg');
-    background-repeat:  no-repeat;
-    background-attachment:  fixed;
-    background-position: center;
+    z-index: -1;
+    background: url('/assets/images/hero.svg') no-repeat center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
