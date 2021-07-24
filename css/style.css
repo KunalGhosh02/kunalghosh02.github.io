@@ -192,7 +192,6 @@ footer {
     border-radius: 2em;
     position: relative;
     z-index: 1;
-    backdrop-filter: blur(40px);
     border: solid 2px transparent;
     background-clip: padding-box;
     box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
@@ -208,7 +207,6 @@ footer {
     padding: 3em;
     border-radius: 2em;
     z-index: 1;
-    backdrop-filter: blur(40px);
     border: solid 2px transparent;
     background-clip: padding-box;
     box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
