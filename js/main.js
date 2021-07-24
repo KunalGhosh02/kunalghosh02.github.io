@@ -7,14 +7,14 @@ function topFunction() {
 $(".nav-link").click(function () {
   var href = $(this).attr('href');
   $('html,body').animate({
-      scrollTop: $(href).offset().top + -100
-    },
+    scrollTop: $(href).offset().top + -100
+  },
     'fast');
 });
 
 $(window).on('scroll', e => {
   $('section').each(function () {
-    if ($(this).offset().top - 140 < $(window).scrollTop()) {
+    if ($(this).offset().top - 150 < $(window).scrollTop()) {
       let id = '#nav-' + $(this).attr('id');
       $('.navbar-nav .nav-link').removeClass('active')
       $('.navbar-nav .nav-link' + id).addClass('active')
