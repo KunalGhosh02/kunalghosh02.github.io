@@ -16,7 +16,6 @@ $(window).on('scroll', e => {
   $('section').each(function () {
     if ($(this).offset().top - 300 < $(window).scrollTop()) {
       let id = '#nav-' + $(this).attr('id');
-      console.log(id);
       $('.navbar-nav .nav-link').removeClass('active')
       $('.navbar-nav .nav-link' + id).addClass('active')
     }
