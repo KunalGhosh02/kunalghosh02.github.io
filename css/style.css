@@ -24,6 +24,7 @@
 }
 
 .header_area .main-navbar .navbar-nav .nav-link {
+    color: black;
     text-transform: uppercase;
     font-weight: 500;
     padding: 0.7rem;
@@ -47,11 +48,15 @@
 
 .transparent {
     background: rgba(255, 255, 255, 0.2) !important;
-    backdrop-filter: blur(40px) !important;
     background-clip: padding-box !important;
     box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03) !important;
 }
 
+@media (max-width: 992px) {
+    .transparent {
+        backdrop-filter: blur(10px);
+    }
+}
 
 
 /* end nav area */
@@ -60,7 +65,8 @@
 /* main area */
 
 body {
-    background: url('/assets/images/hero.svg') fixed;
+
+    background: url('/assets/images/hero.svg') no-repeat center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -123,6 +129,12 @@ body {
 
     .mt-custom-second {
         margin-top: 7rem;
+    }
+}
+
+@media (min-width: 1700px) {
+    .site-main .site-banner {
+        height: 100vh;
     }
 }
 
