@@ -67,6 +67,19 @@
 
 /* main area */
 
+body::-webkit-scrollbar{
+    width: 0.4rem;
+}
+
+body::-webkit-scrollbar-track{
+    background: #1b1b47;
+}
+
+body::-webkit-scrollbar-thumb{
+    border-radius: 2em;
+    background: var(--gradient-color);
+}
+
 body::before {
     content: ' ';
     display: block;
@@ -211,7 +224,7 @@ footer {
 
 .glass {
 
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.8);
     padding: 3em;
     border-radius: 2em;
     position: relative;
